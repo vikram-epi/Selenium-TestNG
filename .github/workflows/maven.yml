@@ -21,11 +21,6 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - name: install chrome
-    - run: |
-           wget "https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_${114.0.5735.90}_amd64.deb"
-           sudo dpkg -i "google-chrome-stable_${114.0.5735.90}_amd64.deb"
-     
-    - name: Build with Maven
+    - name: Test
       run: mvn -B clean test  
 
