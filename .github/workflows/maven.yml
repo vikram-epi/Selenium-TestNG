@@ -21,7 +21,7 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - uses: browser-actions/setup-chrome@v114
+    - uses: browser-actions/setup-chrome@latest
     - run: chrome --version
      
     - name: Build with Maven
