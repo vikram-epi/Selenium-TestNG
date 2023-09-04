@@ -8,7 +8,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<selenium.version>4.11.0</selenium.version>
 		<testng.version>7.6.0</testng.version>
-		<webdrivermanager.version>5.2.1</webdrivermanager.version>
+		<webdrivermanager.version>5.4.1</webdrivermanager.version>
 		<apache.common.version>2.4</apache.common.version>
 		<allure.testng.version>2.20.1</allure.testng.version>
 		<maven.compiler.plugin.version>3.10.1</maven.compiler.plugin.version>
