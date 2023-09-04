@@ -39,4 +39,4 @@ jobs:
        name: Test Results
        path: ${{ github.workspace }}/target/surefire-reports/TEST-TestSuite.xml
        reporter: java-junit
-       java-version: 11
+       fail-on-error: true
