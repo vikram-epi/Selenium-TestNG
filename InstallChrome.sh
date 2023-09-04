@@ -8,7 +8,7 @@ wget https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/l
 unzip chromedriver-linux64.zip
 sudo mv chromedriver /usr/bin/chromedriver
 sudo chown root:root /usr/bin/chromedriver
-sudo chmod +x /usr/bin/chromedriver
+sudo chmod 777 /usr/bin/chromedriver
 #wget https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.1.0/selenium-server-4.1.2.jar
 #mv selenium-server-4.1.2.jar selenium-server.jar
 #sudo apt install xvfb
