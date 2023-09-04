@@ -37,6 +37,6 @@ jobs:
       if: always()
       with:
        name: Test Results
-       path: ${{ github.workspace }}/target/surefire-reports/TEST-TestSuite.xml
+       path: target/surefire-reports/TEST-TestSuite.xml
        reporter: java-junit
        fail-on-error: true
