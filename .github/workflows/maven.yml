@@ -37,6 +37,6 @@ jobs:
       if: success() || failure()
       with:
        name: Test Results
-       path: ${{ github.workspace }}/target/surefire-reports/*.xml
+       path: ${{ github.workspace }}/target/surefire-reports/testng-results.xml
        reporter: java-junit
        java-version: 11
