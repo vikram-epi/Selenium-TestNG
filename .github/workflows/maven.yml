@@ -1,4 +1,4 @@
-name: Java Selenium with TestNG - CI
+name: Java Selenium with TestNG  - CI
 
 on:
   push:
